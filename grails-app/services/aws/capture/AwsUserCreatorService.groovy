@@ -37,10 +37,10 @@ class AwsUserCreatorService {
 
         CreateLoginProfileRequest createLoginProfileRequest = new CreateLoginProfileRequest()
                 .withUserName(iamUser.getUserName())
-                .withPassword("codemash")
+                .withPassword("yQq8RB.Vtq*3PF*Hwhvq")
         awsIamClient.createLoginProfile(createLoginProfileRequest);
-        userInfo.password = "codemash"
-        userInfo.consoleUrl = "https://563700736850.signin.aws.amazon.com/console"
+        userInfo.password = "yQq8RB.Vtq*3PF*Hwhvq"
+        userInfo.consoleUrl = "https://awspres.signin.aws.amazon.com/console"
 
 
         userInfo.save()
